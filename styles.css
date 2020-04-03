@@ -1,0 +1,58 @@
+
+table {
+width: 35%;
+
+border: 2px solid black;
+border-collapse: collapse;
+font-size: 20px;
+<!-- height: 100px; -->
+margin: 50px;
+padding: 10px;
+
+}
+td,th {
+border: 1px solid black;
+padding: 5px;
+text-align:left;
+}
+th {
+background-color: lightgray;
+}
+h1 {
+   color:Gray;
+  text-align:center;   
+}
+h2 {
+   color:blue;
+ 
+}
+h3 {
+   color:green;
+  
+}
+h4 {
+   color:red;
+  
+}
+h5 {
+   color:yellow;
+ 
+}
+h6 {
+   color:purple;
+}
+#title   {
+font-family: Arial, sans-serif;
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.name {
+font-weight: bold;
+}
+
+
+
+
+
