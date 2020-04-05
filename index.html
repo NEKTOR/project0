@@ -1,19 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 5.0 >
 <head>
 <title>French bulldog puppies</title>
-<link rel ="stylesheet" href="styles.css" >
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel ="stylesheet" href="styles.css">
 </head>
 
 <body>
-<form>
+
   <!--
-<input type = "text" placeholder = "Full Name" name ="name">
+  <form>
+<div>
+<input name ="name" type = "text" placeholder = "Name" >
+<input name ="password" type = "password" placeholder = "password" >
+</div>
+
+<div>
+  Favorite color?
+  <input name ="color" type = "radio" value = "red" > Red
+  <input name ="color" type = "radio" value = "green" > Green
+  <input name ="color" type = "radio" value = "blue" > Blue
+  <input name ="color" type = "radio" value = "other" > Other
+  </div>
+<div>
+  <input name ="country" list = "countries" placeholder = "Country">
+  <datalist id="countries">
+    <option value = "USA">
+    <option value = "UK">
+    <option value = "Ukraine">
+</div>
 <button>Submit!</button>
+
 <form/>
 -->
+
+<!--
+Checking  commit function
+
+-->
 <div id = "bunner">
-<img src = "Boston_Bunner.gif.gif", width="900px">
+<img src = "Boston_Bunner.gif", width="900px">
 </div>
+
+<div id = "bunner">
+  <div class="container">
+    <a href="index.html" class="btn btn-default btn-lg disabled" role="button" >Home</a>
+    <a href="Protect_the_pet.html" class="btn btn-default btn-lg" role="button" >Protect the pet</a>
+    <a href="Red_signs.html" class="btn btn-default btn-lg" role="button" >Red signs</a>
+    <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
+  </div>
+</div>
+
+  <!--
+<div class="container">
+  <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
+  <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
+  <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
+  <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
+</div>
+-->
 <div id = "title">
   <h1> French bulldog puppies</h1>
 </div>
@@ -52,13 +97,14 @@
       </tr>
     </table>
     </div>
+    <p id ="BACK"></p>
 <div id = "list">
 Available Puppies:
 <ol>
-   <li>LATTE </li>
-   <li>LINCOLN</li>
-   <li>LION</li>
-</ol>
+  <li><a href = "#LATTE">LATTE</a></li>
+   <li><a href = "#LINCOLN">LINCOLN</a></li>
+   <li><a href = "#LION">LION</a></li>
+   </ol>
 <p>Included with each puppy: </p>
 <ul>
 <li>Vet certificate</li>
@@ -68,9 +114,28 @@ Available Puppies:
 <li>Initial food</li>
 </ul>
   </div>
-<!--
-<img src = "LATTE.gif", width="50%">
--->
+<div id = "list">
+  <p id ="LATTE"></p>
+  <a href = "#BACK"><span class = "name">LATTE</span></a>
+  <br><br>
+  <img src = "LATTE.gif", width="50%">
+
+  <br><br>
+  <br><br>
+<p id ="LINCOLN"></p>
+<a href = "#BACK"><span class = "name">LINCOLN</span></a>
+<br><br>
+<img src = "LINCOLN.gif", width="50%">
+
+<br><br>
+<br><br>
+
+<p id ="LION"></p>
+<a href = "#BACK"><span class = "name">LION</span></a>
+  <br><br>
+<img src = "LION.gif", width="50%">
+
+  </div>
 
 </body>
 </html>
