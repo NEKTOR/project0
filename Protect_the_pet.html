@@ -7,19 +7,27 @@
 </head>
 
 <body>
-<form>
-
 <div id = "bunner">
-<img src = "Boston_Bunner.gif", width="900px">
+  <img src = "Boston_Bunner.gif"  class="responsive">
 </div>
 
 <div id = "bunner">
+  <div class= "icon-bar">
   <div class="container">
-    <a href="index.html" class="btn btn-default btn-lg" role="button" >Home</a>
-    <a href="Protect_the_pet.html" class="btn btn-default btn-lg disabled" role="button" >Protect the pet</a>
-    <a href="Red_signs.html" class="btn btn-default btn-lg" role="button" >Red signs</a>
-    <a href="#" class="btn btn-default btn-lg" role="button" >Link Button</a>
-  </div>
+    <div class="grid">
+        <div class="grid-item"><a href="index.html" class="btn btn-default btn-lg" role="button">Home</a></div>
+        <div class="grid-item"><a href="Protect_the_pet.html" class="btn btn-default btn-lg disabled" role="button">Protect the pet</a></div>
+        <div class="grid-item"><a href="Red_signs.html" class="btn btn-default btn-lg" role="button">Red signs</a></div>
+        <div class="grid-item"><a href="health_commitment.html" class="btn btn-default btn-lg" role="button">Health commitment</a></div>
+            </div>
+            <!--
+    <a href="index.html" class="btn btn-default btn-lg disabled" role="button">Home</a>
+    <a href="Protect_the_pet.html" class="btn btn-default btn-lg" role="button" class="col-3">Protect the pet</a>
+    <a href="Red_signs.html" class="btn btn-default btn-lg" role="button" class="col-3">Red signs</a>
+    <a href="health_commitment.html" class="btn btn-default btn-lg" role="button" class="col-3">Health commitment</a>
+    -->
+    </div>
+</div>
 </div>
 <br><br>
 
@@ -27,7 +35,8 @@
   <h4>Attention for all bulldog owners!<h4>
 </div>
     <div id = "list">
-
+      <div class="container">
+            <div class="col-lg-9 col-sm-12">
 <ol>
 <li> Restrict exercise on hot days</li>
 <li> Never leave dogs in hot rooms or sun traps</li>
@@ -38,6 +47,8 @@
 <li> Spray your dog with cool water</li>
 <li> Never leave your dog in a parked car</li>
 </ol>
+</div>
+</div>
 </div>
 </body>
 </html>

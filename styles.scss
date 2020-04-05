@@ -1,0 +1,154 @@
+$BaseColor: darkgray;
+
+#bunner {
+text-align:center;
+margin-left:  0%;
+margin-right:  0%;
+}
+
+
+ #list {
+ color:black;
+ margin:  120px;
+
+ font-family:  sans-serif, Arial;
+ font-size: 17px;
+ font-weight: bold;
+
+ }
+body {
+background-image: url(BackgroundSmall.jpg);
+border: 7px solid gray;
+   margin-left:  50px;
+   margin-right:  50px;
+   margin-top:   10px;
+   margin-bottom:   50px;
+   min-width: 750px;
+}
+.icon-bar {
+background-color: $BaseColor;
+float: center;
+width: auto
+
+}
+::selection {
+    color: green;
+    background-color: white;
+}
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+@media screen {
+    .hide_text {
+        display: none;
+    }
+    .responsive {
+      width: 100%;
+
+      max-width: auto;
+      min-width: auto;
+      height: auto;
+    }
+    .grid {
+        background-color: $BaseColor;
+        display: grid;
+        padding: 1px;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .grid-item {
+        background-color: $BaseColor;
+
+    }
+table {
+background-color: white;
+width: 35%;
+border: 2px solid black;
+border-collapse: collapse;
+font-size: 20px;
+margin: 20px;
+}
+td,th {
+border: 1px solid black;
+padding: 5px;
+text-align:left;
+}
+th {
+background-color: $BaseColor;
+}
+h1 {
+   color:Gray;
+  text-align:center;
+
+}
+h2 {
+   color:red;
+
+}
+h3 {
+   color:green;
+
+}
+h4 {
+   color:red;
+text-align:center;
+}
+h5 {
+   color:yellow;
+
+}
+h6 {
+   color:purple;
+}
+#title   {
+font-size: 35px;
+font-family: Arial, sans-serif;
+}
+
+#table {
+margin: 70px;
+
+}
+.name {
+font-weight: bold;
+}
+div {
+    font-size: 18px;
+
+    p {
+        color: Gray;
+    }
+
+    ul {
+        color: black;
+    }
+}
+%message {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    opacity: 70%;
+}
+
+.success {
+    @extend %message;
+    background-color: lightgreen;
+}
+
+.warning {
+    @extend %message;
+    background-color: lightyellow;
+}
+
+.error {
+    @extend %message;
+    background-color: salmon;
+}
+}
